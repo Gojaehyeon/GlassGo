@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C79F45712E123426002A0788 /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = C79F45702E123426002A0788 /* KeyboardShortcuts */; };
+		C79F45742E123435002A0788 /* HotKey in Frameworks */ = {isa = PBXBuildFile; productRef = C79F45732E123435002A0788 /* HotKey */; };
+		C79F45772E12345B002A0788 /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = C79F45762E12345B002A0788 /* KeyboardShortcuts */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C79F454B2E1232EE002A0788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C79F45352E1232ED002A0788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C79F453C2E1232ED002A0788;
+			remoteInfo = GlassGO;
+		};
+		C79F45552E1232EE002A0788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C79F45352E1232ED002A0788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C79F453C2E1232ED002A0788;
+			remoteInfo = GlassGO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C79F453D2E1232ED002A0788 /* GlassGO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlassGO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C79F454A2E1232EE002A0788 /* GlassGOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlassGOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C79F45542E1232EE002A0788 /* GlassGOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlassGOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C79F453F2E1232ED002A0788 /* GlassGO */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GlassGO;
+			sourceTree = "<group>";
+		};
+		C79F454D2E1232EE002A0788 /* GlassGOTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GlassGOTests;
+			sourceTree = "<group>";
+		};
+		C79F45572E1232EE002A0788 /* GlassGOUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GlassGOUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C79F453A2E1232ED002A0788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C79F45742E123435002A0788 /* HotKey in Frameworks */,
+				C79F45712E123426002A0788 /* KeyboardShortcuts in Frameworks */,
+				C79F45772E12345B002A0788 /* KeyboardShortcuts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79F45472E1232EE002A0788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79F45512E1232EE002A0788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C79F45342E1232ED002A0788 = {
+			isa = PBXGroup;
+			children = (
+				C79F453F2E1232ED002A0788 /* GlassGO */,
+				C79F454D2E1232EE002A0788 /* GlassGOTests */,
+				C79F45572E1232EE002A0788 /* GlassGOUITests */,
+				C79F453E2E1232ED002A0788 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C79F453E2E1232ED002A0788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C79F453D2E1232ED002A0788 /* GlassGO.app */,
+				C79F454A2E1232EE002A0788 /* GlassGOTests.xctest */,
+				C79F45542E1232EE002A0788 /* GlassGOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C79F453C2E1232ED002A0788 /* GlassGO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C79F455E2E1232EE002A0788 /* Build configuration list for PBXNativeTarget "GlassGO" */;
+			buildPhases = (
+				C79F45392E1232ED002A0788 /* Sources */,
+				C79F453A2E1232ED002A0788 /* Frameworks */,
+				C79F453B2E1232ED002A0788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C79F453F2E1232ED002A0788 /* GlassGO */,
+			);
+			name = GlassGO;
+			packageProductDependencies = (
+				C79F45702E123426002A0788 /* KeyboardShortcuts */,
+				C79F45732E123435002A0788 /* HotKey */,
+				C79F45762E12345B002A0788 /* KeyboardShortcuts */,
+			);
+			productName = GlassGO;
+			productReference = C79F453D2E1232ED002A0788 /* GlassGO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C79F45492E1232EE002A0788 /* GlassGOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C79F45612E1232EE002A0788 /* Build configuration list for PBXNativeTarget "GlassGOTests" */;
+			buildPhases = (
+				C79F45462E1232EE002A0788 /* Sources */,
+				C79F45472E1232EE002A0788 /* Frameworks */,
+				C79F45482E1232EE002A0788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C79F454C2E1232EE002A0788 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C79F454D2E1232EE002A0788 /* GlassGOTests */,
+			);
+			name = GlassGOTests;
+			packageProductDependencies = (
+			);
+			productName = GlassGOTests;
+			productReference = C79F454A2E1232EE002A0788 /* GlassGOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C79F45532E1232EE002A0788 /* GlassGOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C79F45642E1232EE002A0788 /* Build configuration list for PBXNativeTarget "GlassGOUITests" */;
+			buildPhases = (
+				C79F45502E1232EE002A0788 /* Sources */,
+				C79F45512E1232EE002A0788 /* Frameworks */,
+				C79F45522E1232EE002A0788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C79F45562E1232EE002A0788 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C79F45572E1232EE002A0788 /* GlassGOUITests */,
+			);
+			name = GlassGOUITests;
+			packageProductDependencies = (
+			);
+			productName = GlassGOUITests;
+			productReference = C79F45542E1232EE002A0788 /* GlassGOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C79F45352E1232ED002A0788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					C79F453C2E1232ED002A0788 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					C79F45492E1232EE002A0788 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = C79F453C2E1232ED002A0788;
+					};
+					C79F45532E1232EE002A0788 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = C79F453C2E1232ED002A0788;
+					};
+				};
+			};
+			buildConfigurationList = C79F45382E1232ED002A0788 /* Build configuration list for PBXProject "GlassGO" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C79F45342E1232ED002A0788;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C79F456F2E123426002A0788 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				C79F45722E123435002A0788 /* XCRemoteSwiftPackageReference "HotKey" */,
+				C79F45752E12345B002A0788 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C79F453E2E1232ED002A0788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C79F453C2E1232ED002A0788 /* GlassGO */,
+				C79F45492E1232EE002A0788 /* GlassGOTests */,
+				C79F45532E1232EE002A0788 /* GlassGOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C79F453B2E1232ED002A0788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79F45482E1232EE002A0788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79F45522E1232EE002A0788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C79F45392E1232ED002A0788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79F45462E1232EE002A0788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79F45502E1232EE002A0788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C79F454C2E1232EE002A0788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C79F453C2E1232ED002A0788 /* GlassGO */;
+			targetProxy = C79F454B2E1232EE002A0788 /* PBXContainerItemProxy */;
+		};
+		C79F45562E1232EE002A0788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C79F453C2E1232ED002A0788 /* GlassGO */;
+			targetProxy = C79F45552E1232EE002A0788 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C79F455C2E1232EE002A0788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = RP5GZ99V95;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C79F455D2E1232EE002A0788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = RP5GZ99V95;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C79F455F2E1232EE002A0788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RP5GZ99V95;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gojaehyun.GlassGO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C79F45602E1232EE002A0788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RP5GZ99V95;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gojaehyun.GlassGO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C79F45622E1232EE002A0788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RP5GZ99V95;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gojaehyun.GlassGOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlassGO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GlassGO";
+			};
+			name = Debug;
+		};
+		C79F45632E1232EE002A0788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RP5GZ99V95;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gojaehyun.GlassGOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlassGO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GlassGO";
+			};
+			name = Release;
+		};
+		C79F45652E1232EE002A0788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RP5GZ99V95;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gojaehyun.GlassGOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GlassGO;
+			};
+			name = Debug;
+		};
+		C79F45662E1232EE002A0788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RP5GZ99V95;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gojaehyun.GlassGOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GlassGO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C79F45382E1232ED002A0788 /* Build configuration list for PBXProject "GlassGO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C79F455C2E1232EE002A0788 /* Debug */,
+				C79F455D2E1232EE002A0788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C79F455E2E1232EE002A0788 /* Build configuration list for PBXNativeTarget "GlassGO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C79F455F2E1232EE002A0788 /* Debug */,
+				C79F45602E1232EE002A0788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C79F45612E1232EE002A0788 /* Build configuration list for PBXNativeTarget "GlassGOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C79F45622E1232EE002A0788 /* Debug */,
+				C79F45632E1232EE002A0788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C79F45642E1232EE002A0788 /* Build configuration list for PBXNativeTarget "GlassGOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C79F45652E1232EE002A0788 /* Debug */,
+				C79F45662E1232EE002A0788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C79F456F2E123426002A0788 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+		C79F45722E123435002A0788 /* XCRemoteSwiftPackageReference "HotKey" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/soffes/HotKey";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C79F45752E12345B002A0788 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C79F45702E123426002A0788 /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C79F456F2E123426002A0788 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = KeyboardShortcuts;
+		};
+		C79F45732E123435002A0788 /* HotKey */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C79F45722E123435002A0788 /* XCRemoteSwiftPackageReference "HotKey" */;
+			productName = HotKey;
+		};
+		C79F45762E12345B002A0788 /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C79F45752E12345B002A0788 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C79F45352E1232ED002A0788 /* Project object */;
+}
