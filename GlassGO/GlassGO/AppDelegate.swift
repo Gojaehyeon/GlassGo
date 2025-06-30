@@ -68,7 +68,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate {
         }
         let hosting = NSHostingController(rootView: contentView)
         let panel = NSPanel(contentViewController: hosting)
-        panel.styleMask = [.titled, .nonactivatingPanel, .fullSizeContentView]
+        panel.styleMask = [.borderless, .nonactivatingPanel, .fullSizeContentView]
         panel.isFloatingPanel = true
         panel.level = .floating
         panel.titleVisibility = .hidden
@@ -80,6 +80,8 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate {
         panel.standardWindowButton(.closeButton)?.isHidden = true
         panel.standardWindowButton(.miniaturizeButton)?.isHidden = true
         panel.standardWindowButton(.zoomButton)?.isHidden = true
+        panel.contentView?.wantsLayer = true
+        panel.contentView?.layer?.backgroundColor = NSColor.clear.cgColor
         let width: CGFloat = 300
         let height: CGFloat = 300
         let size = NSSize(width: width, height: height)

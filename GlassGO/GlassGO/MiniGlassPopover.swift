@@ -17,22 +17,32 @@ struct DraggableRepresentable<Content: View>: NSViewRepresentable {
     }
 }
 
-@available(macOS 15.0, *)
 struct MiniGlassPopover: View {
     var body: some View {
         DraggableRepresentable(content:
-            GlassEffectContainer {
-                Circle()
-                    .frame(width: 270, height: 270)
-                    .glassEffect()
+            Group {
+                if #available(macOS 26.0, *) {
+                    GlassEffectContainer(spacing: 40.0) {
+                        ZStack {
+                            Circle()
+                                .fill(Color.clear)
+                                .frame(width: 250.0, height: 250.0)
+                                .glassEffect()
+                            Button("") {
+                            }
+                            .buttonStyle(.glass)
+
+                        }
+                    }
+                } else {
+                    Circle()
+                        .fill(Color.clear)
+                }
             }
-            .frame(width: 300, height: 300)
         )
     }
 }
 
 #Preview {
-    if #available(macOS 15.0, *) {
-        MiniGlassPopover()
-    }
+    MiniGlassPopover()
 } 
